@@ -10,7 +10,7 @@
 #define FILENAME_MAX 50
 #define MAX_QUERIES 50
 
-char URL[] = "https://www.google.bg/?gfe_rd=cr&ei=pwEFWP79AuOX8QfW34HACQ";
+char URL[] = "https://www.google.bg/?gfe_rd=cr&ei=pwEFWP79AuOX8QfW34HACQ";  // <---- Put URL to be parsed
 void url_parse();
 struct QUERY_PARAMETERS
 {
@@ -34,7 +34,6 @@ int main()
     puts(url.file_name);
     puts(url.params[1].value);
     puts(url.params[1].name);
-
     return 0;
 }
 void url_parse()
