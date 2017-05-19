@@ -12,3 +12,6 @@ The divide-and-conquer strategy is used in quicksort. Below the recursion step i
 ### Partition algorithm in detail
 There are two indices i and j and at the very beginning of the partition algorithm i points to the first element in the array and j points to the last one. Then algorithm moves i forward, until an element with value greater or equal to the pivot is found. Index j is moved backward, until an element with value lesser or equal to the pivot is found. If i ≤ j then they are swapped and i steps to the next position (i + 1), j steps to the previous one (j - 1). Algorithm stops, when i becomes greater than j.
 After partition, all values before i-th element are less or equal than the pivot and all values after j-th element are greater or equal to the pivot.
+
+### Example: 
+![alt text](http://www.algolist.net/img/sorts/quick-sort.png "Example")
