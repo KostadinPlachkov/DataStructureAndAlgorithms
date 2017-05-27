@@ -8,4 +8,4 @@ Algorithmic Paradigm: Incremental Approach
 **Online:** Yes  
 **Uses:** Insertion sort is used when number of elements is small. It can also be useful when input array is almost sorted, only few elements are misplaced in complete big array.  
 
-![alt text](http://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/insertion-sort.png, "Example")
+[alt text](http://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/insertion-sort.png, "Example")
