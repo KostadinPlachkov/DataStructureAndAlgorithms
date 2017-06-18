@@ -2,8 +2,7 @@
  Find the quantity of natural numbers (they must be less than N),  
  which can be evaluated from the multiplication of two prime numbers.
  --
-## Sieve of Eratosthenes
-### Overview
+### Sieve of Eratosthenes
 A prime number is a natural number that has exactly two distinct natural number divisors: 1 and itself.  
 To find all the prime numbers less than or equal to a given integer n by Eratosthenes' method:  
 * Create a list of consecutive integers from 2 through n: (2, 3, 4, ..., n).  
