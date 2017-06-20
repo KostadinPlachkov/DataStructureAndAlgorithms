@@ -1,8 +1,5 @@
 import java.util.*;
 
-/**
- * Created by Kostadin on 16-Jun-17.
- */
 public class SetsAndMaps {
     public static void main(String[] args) {
         HashSet<Integer> hashSet = new HashSet<>();  // The elements are randomly ordered. Fast!
