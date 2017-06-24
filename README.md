@@ -1,4 +1,4 @@
-# DataStructuresAndAlgorithms
+# Data Structures and Algorithms
 * Binary Tree
 * Eratosthenes Algorithm
 * Insertion Sort
