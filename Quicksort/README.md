@@ -14,4 +14,4 @@ There are two indices i and j and at the very beginning of the partition algorit
 After partition, all values before i-th element are less or equal than the pivot and all values after j-th element are greater or equal to the pivot.
 
 ### Example: 
-![alt text](http://www.algolist.net/img/sorts/quick-sort.png "Example")
+![alt text](http://www.algolist.net/img/sorts/quick-sort.png "Example quick sort")
