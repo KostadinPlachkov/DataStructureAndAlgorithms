@@ -1,5 +1,5 @@
 # Data Structures and Algorithms
-* Binary Tree
+* Binary Search and Tree
 * Eratosthenes Algorithm
 * Insertion Sort
 * Quick Sort
