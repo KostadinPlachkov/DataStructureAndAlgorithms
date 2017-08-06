@@ -41,7 +41,7 @@ unsigned int numbersRepresentedByTheMultOfTwoPrimesLessThan(unsigned int N)
     else
     {
         numberOfElements = ((N - 1) / 2) + 2; // Number of elements for the array
-        naturalNumbersDict = (char *) calloc(numberOfElements, sizeof(char)); // Using calloc() to set all of the indexes to 0
+        naturalNumbersDict = (char *) calloc(numberOfElements, sizeof(char)); // Using calloc() to set all of the indices to 0
 
         if (naturalNumbersDict == NULL) {
             // Checking if there is an error
