@@ -1,0 +1,34 @@
+import java.util.List;
+
+/**
+ * Write a program  having generic functionality for sorting objects,
+ all are instance of  java.lang.Number and Comparable java classes
+ by two different ways – bubble and (quick) sortExample
+
+ SortEngine<Float> sortEngine;
+ sortEngine.add(num1)..
+ List<Float> sorted = sortEngine.bubbleSort()/(quickSort())
+ */
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        SortEngine<Double> sortEngine = new SortEngine<>();
+        sortEngine.add(5.3);
+        sortEngine.add(7.6);
+        sortEngine.add(1.8);
+        sortEngine.add(2.7);
+        sortEngine.add(60.9);
+        List sorted = sortEngine.bubbleSort();
+        System.out.println(sorted);
+//        sortEngine.add(7);
+//        sortEngine.add(1);
+//        sortEngine.add(5);
+//        sortEngine.add(7);
+//        sortEngine.add(1);
+//        sortEngine.add(2);
+//        sortEngine.add(60);
+//        List sorted2 = sortEngine.quickSort();
+//        System.out.println(sorted2);
+
+    }
+}
