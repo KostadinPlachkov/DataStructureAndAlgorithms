@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SortEngine<T> extends Algorithms {
+public class SortEngine<T extends Number & Comprable<T>> extends Algorithms {
 
     private ArrayList<T> unsortedArrayList = new ArrayList<>();
     private ArrayList<Number> sortedArrayList = new ArrayList<>();
