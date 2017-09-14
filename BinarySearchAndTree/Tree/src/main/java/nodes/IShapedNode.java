@@ -1,6 +1,6 @@
 package main.java.nodes;
 
-import main.java.shapes.Shape;
+import main.java.treeCharacteristics.Shape;
 
 /**
  * Created by Kostadin on 10-Sep-17.

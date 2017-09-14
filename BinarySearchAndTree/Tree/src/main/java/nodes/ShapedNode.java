@@ -1,8 +1,9 @@
 package main.java.nodes;
 
 
-import main.java.shapes.Shape;
+import main.java.treeCharacteristics.Shape;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -24,5 +25,13 @@ public class ShapedNode extends ColoredNode implements IShapedNode {
     @Override
     public void setShape(Shape shape) {
         this.shape = shape;
+    }
+
+    public ArrayList<Object> characteristics() {
+        ArrayList<Object> arrayList = new ArrayList<>();
+        arrayList.add(getValue());
+        arrayList.add(getColor());
+        arrayList.add(getShape());
+        return arrayList;
     }
 }

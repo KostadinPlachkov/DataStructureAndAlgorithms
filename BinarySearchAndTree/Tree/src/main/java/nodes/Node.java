@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by Kostadin on 13-Sep-17.
  */
-public class Node {
+public abstract class Node {
 
     private ArrayList<Node> children = new ArrayList<>();
 
@@ -21,4 +21,5 @@ public class Node {
         this.children.add(child);
     }
 
+    public abstract ArrayList<Object> characteristics();
 }

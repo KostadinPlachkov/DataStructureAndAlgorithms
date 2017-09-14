@@ -5,5 +5,5 @@ package main.java.treeCharacteristics;
  */
 public enum TreeCharacteristics {
     DEPTH,
-    CHILDREN
+    CHILDREN,
 }

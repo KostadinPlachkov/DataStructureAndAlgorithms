@@ -1,8 +1,9 @@
 package main.java.nodes;
 
 
-import main.java.colors.Color;
+import main.java.treeCharacteristics.Color;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -22,5 +23,12 @@ public class ColoredNode extends SimpleNode implements IColoredNode {
 
     public void setColor(Color color) {
         this.color = color;
+    }
+
+    public ArrayList<Object> characteristics() {
+        ArrayList<Object> arrayList = new ArrayList<>();
+        arrayList.add(getValue());
+        arrayList.add(getColor());
+        return arrayList;
     }
 }

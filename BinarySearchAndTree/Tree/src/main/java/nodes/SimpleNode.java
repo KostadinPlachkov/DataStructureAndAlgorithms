@@ -1,5 +1,6 @@
 package main.java.nodes;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -10,7 +11,7 @@ public class SimpleNode extends Node implements ISimpleNode {
 
     public SimpleNode() {
         Random random = new Random();
-        this.value = random.nextInt();
+        this.value = random.nextInt(1000);  // Change this number to lower if you want to get a match with value.
     }
 
     @Override
@@ -21,5 +22,11 @@ public class SimpleNode extends Node implements ISimpleNode {
     @Override
     public void setValue(int value) {
         this.value = value;
+    }
+
+    public ArrayList<Object> characteristics() {
+        ArrayList<Object> arrayList = new ArrayList<>();
+        arrayList.add(getValue());
+        return arrayList;
     }
 }

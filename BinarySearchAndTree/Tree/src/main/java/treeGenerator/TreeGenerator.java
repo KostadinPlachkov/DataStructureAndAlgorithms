@@ -1,4 +1,4 @@
-package main.java.manager;
+package main.java.treeGenerator;
 
 import main.java.nodeFactory.NodeFactory;
 import main.java.nodes.Node;
@@ -7,17 +7,11 @@ import main.java.nodes.Node;
  * Created by Kostadin on 11-Sep-17.
  */
 public class TreeGenerator {
-    public Node generate(int depth, int children) throws Exception {
-        if (depth < 1) {
-            throw new Exception("Depth must be >= 1");
-        }
-        if (children < 2) {
-            throw new Exception("Children must be >= 2");
-        }
+    public Node generate(int depth, int children) {
 
         Node head = NodeFactory.getRandomNode();
         tree(head, depth, children);
-        return head;
+        return head;  // The root of the tree.
     }
 
     private void tree(Node head, int depth, int children) {

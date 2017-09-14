@@ -1,4 +1,4 @@
-package main.java.colors;
+package main.java.treeCharacteristics;
 
 /**
  * Created by Kostadin on 10-Sep-17.

@@ -5,9 +5,13 @@ import java.util.Scanner;
 /**
  * Created by Kostadin on 11-Sep-17.
  */
-public class InputOutput{
+public class InputOutput {
     public static void write(String output) {
         System.out.println(output);
+    }
+
+    public static void write() {
+        System.out.println();
     }
 
     public static String read() {
