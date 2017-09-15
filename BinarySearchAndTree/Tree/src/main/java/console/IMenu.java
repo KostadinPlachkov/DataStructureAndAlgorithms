@@ -14,6 +14,6 @@ public interface IMenu {
     HashMap<TreeCharacteristics, Integer> userInput();
     void printTree(Node head);
     ArrayList<Object> searchForNode();
-    void searchResult(int result);
+    void searchResult(int result, ArrayList<Object> characteristics);
 
 }

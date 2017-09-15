@@ -22,13 +22,16 @@ public class Manager {
         HashMap<TreeCharacteristics, Integer> userInput = menu.userInput();
         menu.generateTree();
         Node treeHead = treeGenerator.generate(userInput.get(TreeCharacteristics.DEPTH), userInput.get(TreeCharacteristics.CHILDREN));
-        menu.printTree(treeHead);
-        menu.searchConsole();
-        menu.searchHelper();
+        // In case of huge trees comment the next line.
+        menu.printTree(treeHead);  // Trees with depth and children values bigger than 6 are hard to print.
+
         while (true) {
+            menu.searchConsole();
+            menu.searchHelper();
             ArrayList<Object> characteristics = menu.searchForNode();
+            menu.searching();
             int result = SearchForNode.equalTo(treeHead, characteristics);
-            menu.searchResult(result);
+            menu.searchResult(result, characteristics);
         }
     }
 }

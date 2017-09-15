@@ -16,10 +16,10 @@ public class Menu implements IMenu {
 
     @Override
     public void startupText() {
-        InputOutput.write("==================================");
+        InputOutput.write("============================================");
         InputOutput.write("TreeGenerator V2.0");
         InputOutput.write("Author: Kostadin Plachkov");
-        InputOutput.write("==================================");
+        InputOutput.write("============================================");
 
     }
 
@@ -53,9 +53,9 @@ public class Menu implements IMenu {
     }
 
     public void searchConsole() {
-        InputOutput.write("==================================");
+        InputOutput.write("============================================");
         InputOutput.write("Search Console");
-        InputOutput.write("==================================");
+        InputOutput.write("============================================");
 
     }
 
@@ -66,7 +66,7 @@ public class Menu implements IMenu {
     }
 
     private Integer searchForValue() {
-        InputOutput.write("Enter an integer value or press n for NONE:");
+        InputOutput.write("Enter an integer value or N for NONE:");
         String userInput = InputOutput.read().toLowerCase();
         if ("n".equals(userInput)) {
             return null;
@@ -131,10 +131,15 @@ public class Menu implements IMenu {
     }
 
     @Override
-    public void searchResult(int result) {
-        InputOutput.write("==================================");
-        InputOutput.write("Nodes found: " + result);
-        InputOutput.write("==================================");
+    public void searchResult(int result, ArrayList<Object> characteristics) {
+        InputOutput.write("============================================");
+        InputOutput.write(characteristics + " Nodes found: " + result);
+        InputOutput.write("============================================");
+
+    }
+
+    public void searching() {
+        InputOutput.write("Searching...");
     }
 
 
