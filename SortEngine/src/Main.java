@@ -8,9 +8,6 @@ import java.util.List;
  SortEngine<Float> sortEngine;
  sortEngine.add(num1)..
  List<Float> sorted = sortEngine.bubbleSort()/(quickSort())
-
-
- http://dox.bg/files/dw?a=6c9482fc31
  */
 
 
