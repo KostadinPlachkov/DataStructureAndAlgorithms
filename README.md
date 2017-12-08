@@ -1,10 +1,14 @@
 # Data Structures and Algorithms
-* Binary Search and Tree
+* Binary Tree  
+* Binary Search  
 * Eratosthenes Algorithm
 * Insertion Sort
 * Quick Sort
-* Sets And Maps
-* Stacks And Queues
+* Sets and Maps
+* Stacks and Queues
+* Tree Generator
+* Sort Engine
+* URL Parser
 
 ![alt text](https://cdn-images-1.medium.com/max/1200/1*qiDoTgb6SrQ04cAFkvPPMQ.png "Big O Complexity Chart")
 
